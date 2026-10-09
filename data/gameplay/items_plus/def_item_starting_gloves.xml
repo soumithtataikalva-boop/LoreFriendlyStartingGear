@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+<redxml>
+    <definitions>
+        <abilities>
+            <ability name="Starting Gloves _Stats" on_conflict="replace">
+                <weight type="base" min="1.2" />
+                <quality type="add" min="1" max="1" />
+                <armor type="base" min="52" max="52" />
+                <slashing_resistance_perc type="base" min="0.01" />
+                <piercing_resistance_perc type="base" min="0.0" />
+                <bludgeoning_resistance_perc type="base" min="0.0" />
+                <rending_resistance_perc type="base" min="0.0" />
+                <elemental_resistance_perc type="base" min="0.02" />
+            </ability>
+        </abilities>
+        <items>
+            <item name="Starting Gloves" category="gloves" price="20" initial_durability="100" max_durability="100" enhancement_slots="0" stackable="1" grid_size="2" ability_mode="OnMount" equip_template="g_01a_mg__viper_lvl3" localisation_key_name="item_name_gloves_01" localisation_key_description="item_category_medium_armor_description" icon_path="icons/inventory/armors/gauntlet-01.png" on_conflict="extend">
+                <tags>							Armor, MediumArmor, mod_armor
+		</tags>
+                <base_abilities>
+                    <a>Default armor _Stats</a>
+                    <a>Starting Gloves _Stats</a>
+                </base_abilities>
+                <recycling_parts>
+                    <parts count="2">Leather squares</parts>
+                    <parts count="1">Iron ore</parts>
+                    <parts count="1">Leather straps</parts>
+                </recycling_parts>
+                <variants>
+                    <variant equip_template="g_01a_mg__viper_lvl3">
+                        <item>Geralt Shirt</item>
+                        <item>Lynx Armor</item>
+                        <item>NGP Lynx Armor</item>
+                    </variant>
+                    <variant equip_template="g_01_mg__viper_lvl3" category="armor" />
+                </variants>
+            </item>
+        </items>
+    </definitions>
+</redxml>
