@@ -1,9 +1,25 @@
-<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <redxml>
-    <definitions>
-        <items>
-            <item name="Starting Armor" localisation_key_name="lfsgear_item_name_starting_armor_worn" on_conflict="extend" />
-            <item name="Starting Armor 1" localisation_key_name="lfsgear_item_name_starting_armor" on_conflict="extend" />
-        </items>
-    </definitions>
+<definitions>
+
+<!-- ######################## ITEM DEFINITONS ######################## -->
+<items>
+
+	<item
+		name							="Starting Armor"
+		localisation_key_name			="lfsgear_item_name_starting_armor_worn"
+		on_conflict						="extend"
+	>
+	</item>
+
+	<item
+		name							="Starting Armor 1"
+		localisation_key_name			="lfsgear_item_name_starting_armor"
+		on_conflict						="extend"
+	>
+	</item>
+
+</items>
+
+</definitions>
 </redxml>
