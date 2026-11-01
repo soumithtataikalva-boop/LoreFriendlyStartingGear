@@ -28,7 +28,7 @@
 
 	<item
 		name							="EP1 Standalone Starting Armor"
-		localisation_key_name			="lfsgear_item_name_starting_armor_worn"
+		localisation_key_name			="lfsgear_item_name_starting_armor"
 		on_conflict						="extend"
 	>
 	</item>
