@@ -5,6 +5,10 @@
 <!-- ######################## ABILITY DEFINITIONS ######################## -->
 <abilities>
 
+	<ability name="EP1 Standalone Starting Armor _Stats" on_conflict="extend">
+		<quality						type="add"	min="5"		max="5"		/>
+	</ability>
+
 	<ability name="EP1 Standalone Starting Boots _Stats" on_conflict="extend">
 		<quality						type="add"	min="5"		max="5"		/>
 	</ability>
