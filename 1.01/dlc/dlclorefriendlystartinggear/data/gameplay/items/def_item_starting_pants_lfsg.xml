@@ -6,15 +6,8 @@
 <abilities>
 
 <!-- PANTS STARTING -->
-	<ability name="Starting Pants _Stats" on_conflict="replace">
-		<weight 						type="base" min="2.1" 				/>
+	<ability name="Starting Pants _Stats" on_conflict="extend">
 		<quality 						type="add" 	min="5" 	max="5"		/>
-		<armor 							type="base" min="4" 	max="4" 	/>
-		<slashing_resistance_perc 		type="base"	min="0.03"				/>
-		<piercing_resistance_perc 		type="base" min="0.0"				/>
-		<bludgeoning_resistance_perc	type="base" min="0.0"				/>
-		<rending_resistance_perc 		type="base" min="0.0"				/>
-		<elemental_resistance_perc 		type="base" min="0.04"				/>
 	</ability>
 
 </abilities>

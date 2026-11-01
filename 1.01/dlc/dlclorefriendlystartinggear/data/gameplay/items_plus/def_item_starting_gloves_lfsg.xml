@@ -6,15 +6,8 @@
 <abilities>
 
 <!-- GLOVES STARTING -->
-	<ability name="Starting Gloves _Stats" on_conflict="replace">
-		<weight							type="base"	min="1.2"				/>
+	<ability name="Starting Gloves _Stats" on_conflict="extend">
 		<quality						type="add"	min="5"		max="5"		/>
-		<armor							type="base"	min="52"	max="52"	/>
-		<slashing_resistance_perc		type="base"	min="0.01"				/>
-		<piercing_resistance_perc		type="base"	min="0.0"				/>
-		<bludgeoning_resistance_perc	type="base"	min="0.0"				/>
-		<rending_resistance_perc		type="base"	min="0.0"				/>
-		<elemental_resistance_perc		type="base"	min="0.02"				/>
 	</ability>
 
 </abilities>
