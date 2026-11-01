@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<redxml>
+<definitions>
+
+<!-- ######################## ABILITY DEFINITIONS ######################## -->
+<abilities>
+
+<!-- BOOTS STARTING -->
+	<ability name="Starting Boots _Stats" on_conflict="extend">
+		<quality						type="add"	min="5"		max="5"		/>
+	</ability>
+
+</abilities>
+
+<!-- ######################## ITEM DEFINITONS ######################## -->
+<items>
+
+	<item
+		name							="Starting Boots"
+		localisation_key_name			="lfsgear_item_name_starting_boots"
+		on_conflict						="extend"
+	>
+	</item>
+
+</items>
+
+</definitions>
+</redxml>
