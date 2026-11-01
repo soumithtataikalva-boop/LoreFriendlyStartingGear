@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<redxml>
+<definitions>
+
+<!-- ######################## ABILITY DEFINITIONS ######################## -->
+<abilities>
+
+	<ability name="EP2 Standalone Starting Boots _Stats" on_conflict="extend">
+		<quality						type="add"	min="5"		max="5"		/>
+	</ability>
+
+	<ability name="EP2 Standalone Starting Gloves _Stats" on_conflict="extend">
+		<quality						type="add"	min="5"		max="5"		/>
+	</ability>
+
+	<ability name="EP2 Standalone Starting Pants _Stats" on_conflict="extend">
+		<quality						type="add"	min="5"		max="5"		/>
+	</ability>
+
+</abilities>
+
+<!-- ######################## ITEM DEFINITONS ######################## -->
+<items>
+
+	<item
+		name							="EP2 Standalone Starting Armor"
+		localisation_key_name			="lfsgear_item_name_starting_armor_worn"
+		on_conflict						="extend"
+	>
+	</item>
+
+	<item
+		name							="EP2 Standalone Starting Boots"
+		localisation_key_name			="lfsgear_item_name_starting_boots"
+		on_conflict						="extend"
+	>
+	</item>
+
+	<item
+		name							="EP2 Standalone Starting Gloves"
+		localisation_key_name			="lfsgear_item_name_starting_gloves"
+		on_conflict						="extend"
+	>
+	</item>
+
+	<item
+		name							="EP2 Standalone Starting Pants"
+		localisation_key_name			="lfsgear_item_name_starting_pants"
+		on_conflict						="extend"
+	>
+	</item>
+
+</items>
+
+</definitions>
+</redxml>
